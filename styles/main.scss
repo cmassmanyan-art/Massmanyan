@@ -1,0 +1,54 @@
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+
+    img {
+        width: 100%;
+
+    }
+
+    .obs {
+        display: flex;
+        flex-direction: row;
+
+        .image {
+            overflow: hidden;
+
+        }
+
+        .image2 {
+            overflow: hidden;
+
+        }
+    }
+
+    .drr {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        .drawings {
+            overflow: hidden;
+        }
+
+        .draw {
+            overflow: hidden;
+        }
+    }
+
+    h2 {
+        margin-top: 25%;
+        justify-self: center;
+    }
+
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 3s;
+    border-radius: 20px;
+}
